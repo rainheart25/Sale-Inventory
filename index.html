@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alex Rivera — full-stack developer portfolio." />
+  <title>Aqua / Dev — Full-stack developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="site-shell" id="top">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="topbar container">
+      <a class="brand" href="#top" aria-label="Aqua Dev home">
+        <span class="brand-mark">◉</span>
+        <span class="brand-name">AQUA<span>/</span>DEV</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a href="#about"><span>01</span> About</a>
+        <a href="#projects"><span>02</span> Projects</a>
+        <a href="#stack"><span>03</span> Stack</a>
+        <a class="nav-contact" href="#contact">Let's talk ↗</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> AVAILABLE FOR NEW PROJECTS <span class="eyebrow-line"></span></div>
+        <h1>Building clear systems <em>with a little current.</em></h1>
+        <p class="hero-intro">I'm <strong>Alex Rivera</strong>, a full-stack developer who turns school-project energy into thoughtful, useful digital experiences — from first sketch to final deploy.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore the work ↘</a>
+          <a class="button button-ghost" href="#contact">✉ Send a signal</a>
+        </div>
+        <div class="hero-caption"><span>SCROLL TO EXPLORE</span><span class="caption-rule"></span><span>001 — 005</span></div>
+      </div>
+
+      <div class="hero-console" aria-label="Developer status console">
+        <div class="console-top"><span>〉 h2o.status</span><span id="clock">--:--:--</span></div>
+        <div class="console-orbit">
+          <div class="orbit-ring orbit-ring-one"></div><div class="orbit-ring orbit-ring-two"></div>
+          <div class="orbit-core"><span class="drop-symbol">◌</span><span>FLOW<br>ONLINE</span></div>
+          <div class="orbit-chip chip-one">FULLSTACK</div><div class="orbit-chip chip-two">BUILD / SHIP</div>
+        </div>
+        <div class="console-lines">
+          <div><span class="line-num">01</span><span class="line-key">stack</span><span>python · laravel · css</span></div>
+          <div><span class="line-num">02</span><span class="line-key">focus</span><span>useful, clean interfaces</span></div>
+          <div><span class="line-num">03</span><span class="line-key">signal</span><span class="line-live"><i></i> open to collaborate</span></div>
+        </div>
+        <div class="console-footer"><span>LAT 14.59° N</span><span>LONG 120.98° E</span><span class="console-status">◉ LIVE</span></div>
+      </div>
+    </section>
+
+    <div class="ticker"><div class="ticker-track"><span>DESIGNING IN THE FLOW</span><b>✦</b><span>CODING WITH INTENTION</span><b>✦</b><span>SHIPPING SMALL, LEARNING FAST</span><b>✦</b><span>DESIGNING IN THE FLOW</span></div></div>
+
+    <section class="about section container" id="about">
+      <div class="section-marker"><span>01</span><span class="marker-line"></span><span>THE PROFILE</span></div>
+      <div class="about-grid">
+        <div class="section-heading"><p class="section-kicker">A PRACTICAL CREATIVE</p><h2>Good code should feel <span>quietly obvious.</span></h2></div>
+        <div class="about-copy"><p>I'm a full-stack developer in the making, with hands-on experience from school projects that taught me how to move between logic, layout, and the messy middle where real products take shape.</p><p>I care about clear structure, friendly interactions, and building things that leave people less confused than when they arrived.</p><a class="text-link" href="#contact">More about my approach ↗</a></div>
+      </div>
+      <div class="signal-card"><div class="signal-quote-mark">“</div><p>There's always a simpler path through the problem. I like finding it — then making it feel natural.</p><div class="signal-signature"><span class="signature-line"></span><span>AR / 2026</span></div></div>
+    </section>
+
+    <section class="projects section container" id="projects">
+      <div class="section-marker"><span>02</span><span class="marker-line"></span><span>SELECTED PROJECTS</span></div>
+      <div class="projects-heading"><div><p class="section-kicker">BUILT IN THE LAB</p><h2>A few things I've <span>set in motion.</span></h2></div><p class="projects-note">School projects, experiments, and small systems with a point of view.</p></div>
+      <div class="project-grid">
+        <article class="project-card cyan"><div class="project-card-top"><span>01 / 03</span><span>◈</span></div><div class="project-visual"><div class="visual-grid"></div><div class="visual-wave"></div><span class="visual-tag">FULLSTACK</span><span class="visual-arrow">↗</span></div><div class="project-content"><h3>Campus Connect</h3><p>A student services hub that brings announcements, schedules, and campus resources into one calm, easy-to-scan interface.</p><div class="project-bottom"><div class="stack-tags"><span>Laravel</span><span>PHP</span><span>MySQL</span></div><button class="round-arrow">↗</button></div></div></article>
+        <article class="project-card blue"><div class="project-card-top"><span>02 / 03</span><span>ϟ</span></div><div class="project-visual"><div class="visual-grid"></div><div class="visual-wave"></div><span class="visual-tag">PRODUCTIVITY</span><span class="visual-arrow">↗</span></div><div class="project-content"><h3>Flow State</h3><p>A focused task board for turning big assignments into small, visible currents of progress with a lightweight dashboard.</p><div class="project-bottom"><div class="stack-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><button class="round-arrow">↗</button></div></div></article>
+        <article class="project-card violet"><div class="project-card-top"><span>03 / 03</span><span>{ }</span></div><div class="project-visual"><div class="visual-grid"></div><div class="visual-wave"></div><span class="visual-tag">BACKEND</span><span class="visual-arrow">↗</span></div><div class="project-content"><h3>Data Tide</h3><p>A clean data utility that validates, organizes, and presents messy inputs so teams can make better decisions faster.</p><div class="project-bottom"><div class="stack-tags"><span>Python</span><span>C#</span><span>API</span></div><button class="round-arrow">↗</button></div></div></article>
+      </div>
+    </section>
+
+    <section class="stack section container" id="stack">
+      <div class="section-marker"><span>03</span><span class="marker-line"></span><span>THE TOOLKIT</span></div>
+      <div class="stack-layout"><div class="stack-heading"><p class="section-kicker">CURRENTLY IN THE WATER</p><h2>The stack behind<br><span>the signal.</span></h2><p>My toolkit is always moving, but these are the languages and frameworks I reach for most often.</p></div><div class="skill-list">
+        <div class="skill-row"><div class="skill-name"><span>Python</span><small>backend</small></div><div class="skill-track"><span style="width:86%"></span></div><span class="skill-level">86%</span></div>
+        <div class="skill-row"><div class="skill-name"><span>Java</span><small>backend</small></div><div class="skill-track"><span style="width:74%"></span></div><span class="skill-level">74%</span></div>
+        <div class="skill-row"><div class="skill-name"><span>Laravel</span><small>framework</small></div><div class="skill-track"><span style="width:82%"></span></div><span class="skill-level">82%</span></div>
+        <div class="skill-row"><div class="skill-name"><span>C#</span><small>backend</small></div><div class="skill-track"><span style="width:68%"></span></div><span class="skill-level">68%</span></div>
+        <div class="skill-row"><div class="skill-name"><span>HTML / CSS</span><small>frontend</small></div><div class="skill-track"><span style="width:92%"></span></div><span class="skill-level">92%</span></div>
+        <div class="skill-row"><div class="skill-name"><span>PHP</span><small>backend</small></div><div class="skill-track"><span style="width:77%"></span></div><span class="skill-level">77%</span></div>
+      </div></div>
+    </section>
+
+    <section class="contact section container" id="contact"><div class="contact-panel"><div class="contact-top"><span class="section-kicker">04 / OPEN CHANNEL</span><span class="contact-signal"><i></i> ONLINE &amp; CURIOUS</span></div><div class="contact-body"><h2>Let's make something <em>flow.</em></h2><p>Have a project, a question, or a good problem to untangle? Drop me a line and I'll get back to you.</p><a class="button button-light" href="mailto:hello@aquadev.dev">hello@aquadev.dev ↗</a></div><div class="contact-ripple ripple-one"></div><div class="contact-ripple ripple-two"></div><div class="contact-ripple ripple-three"></div></div></section>
+
+    <footer class="footer container"><a class="brand" href="#top"><span class="brand-mark">◉</span><span class="brand-name">AQUA<span>/</span>DEV</span></a><p>© 2026 Alex Rivera. Made with curiosity + clean code.</p><div class="footer-links"><a href="https://github.com">GitHub</a><a href="mailto:hello@aquadev.dev">Email</a><a href="#top">Top ↗</a></div></footer>
+  </main>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => navLinks.classList.toggle('nav-open'));
+    document.querySelectorAll('#navLinks a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('nav-open')));
+    function updateClock() { document.getElementById('clock').textContent = new Date().toLocaleTimeString('en-GB', { hour12: false }); }
+    updateClock(); setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>
